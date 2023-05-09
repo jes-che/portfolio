@@ -4,50 +4,64 @@ h1.home-title {
     font-weight: bolder;
     text-align: center;
 }
+
 p {
     color: rgb(59, 59, 59)
 }
+
 body {
     background-color: #bdb4ae
 }
+
 a[href="about-me.html"] {
     background-color: #b08f85;
     color: gainsboro;
     padding: 0.5rem;
 }
+
 a[href="about-me.html"]:hover {
     background-color: #a76985;
 }
+
 .important {
     color: hsl(0, 0%, 34%);
 }
+
 a[href="https://github.com/jes-che/semantic-elements"] {
     color: rgb(59, 59, 59);
 }
+
 a[href="https://github.com/jes-che/semantic-elements"]:hover {
     background-color: #807b71;
 }
+
 a[href="#"] {
     color: rgb(59, 59, 59);  
 }
+
 a[href="#"]:hover {
     background-color: #807b71;
 }
+
 h3 {
     font-style: italic;
 }
+
 a[href="index.html"] {
     background-color: #b08f85;
     color: gainsboro;
     padding: 0.5rem;    
 }
+
 a[href="index.html"]:hover {
     background-color: #a76985;
 }
+
 h1.about-me-title {
     font-size: 75px;
 }
+
 #footer {
-    font-family: Courier New;
+    font-family: "Courier New";
     font-weight: bold;
 }
