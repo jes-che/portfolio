@@ -1,19 +1,51 @@
-h1.home-title {
-    color: black;
-    font-size: 150px; 
-    font-weight: bolder;
-    text-align: center;
+body {
+    margin: 0;
 }
-
+h1.home-title {
+    color: #2D2D34;
+    font-size: 2rem; 
+    font-weight: bolder;
+    display: flex;
+    width: 25%;
+    margin-left: 100px;
+}
+/* header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.intro h2 {
+    color: #B97375;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+section.intro h3 {
+    background-color: #2D2D34;
+    color: white; 
+    width: fit-content;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+section.intro p {
+    width: 25%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+}
 p {
     color: rgb(59, 59, 59)
 }
 
-body {
-    background-color: #bdb4ae
-}
 
-a[href="about-me.html"] {
+/* a[href="about-me.html"] {
     background-color: #b08f85;
     color: gainsboro;
     padding: 0.5rem;
@@ -21,7 +53,7 @@ a[href="about-me.html"] {
 
 a[href="about-me.html"]:hover {
     background-color: #a76985;
-}
+} */
 
 .important {
     color: hsl(0, 0%, 34%);
@@ -43,9 +75,9 @@ a[href="#"]:hover {
     background-color: #807b71;
 }
 
-h3 {
+/* h3 {
     font-style: italic;
-}
+} */
 
 a[href="index.html"] {
     background-color: #b08f85;
