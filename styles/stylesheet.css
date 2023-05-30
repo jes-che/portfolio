@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 h1.home-title {
+    font-family: "Red Hat Mono", monospace;
     color: #2D2D34;
     font-size: 2rem; 
     font-weight: bolder;
@@ -18,21 +19,27 @@ h1.home-title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: fit-content;
 }
 section.intro h2 {
+    font-family: "Red Hat Mono", monospace;
     color: #B97375;
     font-size: 3rem;
     margin-bottom: 0;
 }
 section.intro h3 {
+    font-family: "Red Hat Mono", monospace;
     background-color: #2D2D34;
     color: white; 
     width: fit-content;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 section.intro p {
+    font-family: "Red Hat Mono", monospace;
     width: 25%;
 }
 nav ul {
