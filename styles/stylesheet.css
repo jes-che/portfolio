@@ -17,7 +17,7 @@ h1.home-title {
 } */
 #intro-image {
     position: relative;
-    left: 10rem;
+    left: 10%;
     z-index: -1;
 }
 .intro {
@@ -63,15 +63,37 @@ a.intro-link {
 p {
     color: rgb(59, 59, 59)
 }
-.projects {
-    margin-top: -300px;
+.section-border {
+    margin-top: -350px;
     display: flex;
     justify-content: center;
     background-color: #2D2D34;
+    padding: 2rem;
 }
-section.projects h2 {
+section.section-border h2 {
     font-family: "Red Hat Mono", monospace;
     color: white; 
+}
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #B97375;
+    font-family: "Crimson Pro", serif;
+    text-align: center;
+} 
+h3.project {
+    color: #2D2D34;
+}
+a.project {
+    /* font-family: "Red Hat Mono", monospace; */
+    display: inline-block;
+    font-weight: bold;
+    color: #ffd100;
+    text-decoration: none;
+    border: 2px solid #ffd100;
+    width: 100px;
+    padding: 10px;
+    border-radius: 300px;
 }
 /* a[href="about-me.html"] {
     background-color: #b08f85;
