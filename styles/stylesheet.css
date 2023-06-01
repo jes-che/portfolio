@@ -52,7 +52,7 @@ section.intro p {
     width: 25%;
     padding-bottom: 1.5rem;
 }
-a.intro-read-more {
+#intro-about-me {
     text-decoration: underline;
     text-decoration-color: #B97375;
     text-decoration-thickness: 3px;
@@ -63,7 +63,7 @@ nav.intro-link ul {
     list-style: none;
     display: flex;
     font-size: 1.2rem;
-    margin-left: -40%;
+    margin-left: -50%;
 }
 a.intro-link {
     text-decoration: none;
@@ -112,9 +112,39 @@ a.project {
     border-radius: 300px;
     margin-top: 1.5rem;
 }
+a.project:hover {
+    background-color: #ffd100;
+    color: white;
+}
 section.project article {
     padding-bottom: 2rem;
 }
+footer {
+    background-color: #2D2D34;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-left: 0;
+}
+a.footer {
+    text-decoration: none;
+    padding: 1.75rem;
+}
+p.footer {
+    color: white;
+    font-family: "Red Hat Mono", monospace;
+    text-align: center;
+}
+#footer-about-me {
+    text-decoration: none;
+    color: white;
+}
+
 /* a[href="about-me.html"] {
     background-color: #b08f85;
     color: gainsboro;
