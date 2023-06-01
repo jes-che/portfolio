@@ -50,27 +50,36 @@ section.intro h3 {
 section.intro p {
     font-family: "Red Hat Mono", monospace;
     width: 25%;
+    padding-bottom: 1.5rem;
+}
+a.intro-read-more {
+    text-decoration: underline;
+    text-decoration-color: #B97375;
+    text-decoration-thickness: 3px;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
 }
 nav.intro-link ul {
     list-style: none;
     display: flex;
     font-size: 1.2rem;
+    margin-left: -40%;
 }
 a.intro-link {
     text-decoration: none;
-    padding-left: 2rem;
+    padding-right: 1.5rem;
 }
 p {
     color: rgb(59, 59, 59)
 }
-.section-border {
-    margin-top: -350px;
+#section-border {
+    margin-top: -375px;
     display: flex;
     justify-content: center;
     background-color: #2D2D34;
     padding: 2rem;
 }
-section.section-border h2 {
+#section-border-head {
     font-family: "Red Hat Mono", monospace;
     color: white; 
 }
@@ -83,17 +92,28 @@ section.section-border h2 {
 } 
 h3.project {
     color: #2D2D34;
+    font-size: 1.75rem;
+}
+p.project {
+    font-size: 1.2rem;
+    padding-left: 5em;
+    padding-right: 5rem;
 }
 a.project {
     /* font-family: "Red Hat Mono", monospace; */
     display: inline-block;
     font-weight: bold;
+    font-size: 1.2rem;
     color: #ffd100;
     text-decoration: none;
     border: 2px solid #ffd100;
     width: 100px;
     padding: 10px;
     border-radius: 300px;
+    margin-top: 1.5rem;
+}
+section.project article {
+    padding-bottom: 2rem;
 }
 /* a[href="about-me.html"] {
     background-color: #b08f85;
