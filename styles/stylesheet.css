@@ -144,6 +144,36 @@ p.footer {
     text-decoration: none;
     color: white;
 }
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 10%; */
+    background-color: #E2DCDE;
+    padding-top: 5rem;
+}
+#opening {
+    margin-left: -40%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section.about-me h2 {
+    font-family: "Red Hat Mono", monospace;
+    background-color: #2D2D34;
+    color: white; 
+    width: fit-content;
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section.about-me p {
+    font-family: "Red Hat Mono", monospace;
+    font-size: 1.5rem;
+    width: 40%;
+    padding-bottom: 1.5rem;
+}
 
 /* a[href="about-me.html"] {
     background-color: #b08f85;
