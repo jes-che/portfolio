@@ -2,92 +2,86 @@ body {
     margin: 0;
 }
 h1.home-title {
-    font-family: "Red Hat Mono", monospace;
     color: #2D2D34;
-    font-size: 2rem; 
+    display: flex;
+    font-family: "Red Hat Mono", monospace;
+    font-size: 2rem;
     font-weight: bolder;
-    display: flex;
-    width: 25%;
     margin-left: 100px;
+    width: 25%;
 }
-/* header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 #intro-image {
-    position: relative;
     left: 10%;
+    position: relative;
     z-index: -1;
 }
 .intro {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: fit-content;
+    left: 150px;
     position: relative;
     top: -500px;
-    left: 150px;
-    /* margin-bottom: -300px; */
+    width: fit-content;
 }
 section.intro h2 {
-    font-family: "Red Hat Mono", monospace;
     color: #B97375;
+    font-family: "Red Hat Mono", monospace;
     font-size: 3rem;
     margin-bottom: 0;
 }
 section.intro h3 {
-    font-family: "Red Hat Mono", monospace;
     background-color: #2D2D34;
-    color: white; 
-    width: fit-content;
+    color: white;
+    font-family: "Red Hat Mono", monospace;
     font-size: 3.5rem;
-    margin-top: 0;
     margin-bottom: 0;
+    margin-top: 0;
     padding-left: 10px;
     padding-right: 10px;
+    width: fit-content;
 }
 section.intro p {
     font-family: "Red Hat Mono", monospace;
-    width: 25%;
     padding-bottom: 1.5rem;
+    width: 25%;
 }
 #intro-about-me {
-    text-decoration: underline;
-    text-decoration-color: #B97375;
-    text-decoration-thickness: 3px;
     color: rgb(59, 59, 59);
     font-weight: bold;
+    text-decoration-color: #B97375;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
 }
 nav.intro-link ul {
-    list-style: none;
     display: flex;
     font-size: 1.2rem;
+    list-style: none;
     margin-left: -50%;
 }
 a.intro-link {
-    text-decoration: none;
     padding-right: 1.5rem;
+    text-decoration: none;
 }
 p {
     color: rgb(59, 59, 59)
 }
 #section-border {
-    margin-top: -375px;
+    background-color: #2D2D34;
     display: flex;
     justify-content: center;
-    background-color: #2D2D34;
+    margin-top: -375px;
     padding: 2rem;
 }
 #section-border-head {
+    color: white;
     font-family: "Red Hat Mono", monospace;
-    color: white; 
 }
 .project {
-    display: flex;
-    justify-content: space-evenly;
     background-color: #B97375;
+    display: flex;
     font-family: "Crimson Pro", serif;
+    justify-content: space-evenly;
     text-align: center;
 } 
 h3.project {
@@ -100,17 +94,16 @@ p.project {
     padding-right: 5rem;
 }
 a.project {
-    /* font-family: "Red Hat Mono", monospace; */
-    display: inline-block;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #ffd100;
-    text-decoration: none;
     border: 2px solid #ffd100;
-    width: 100px;
-    padding: 10px;
     border-radius: 300px;
+    color: #ffd100;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
     margin-top: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
 }
 a.project:hover {
     background-color: #ffd100;
@@ -121,19 +114,19 @@ section.project article {
 }
 footer {
     background-color: #2D2D34;
-    padding-top: 5rem;
     padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 footer ul {
-    list-style: none;
     display: flex;
     justify-content: center;
+    list-style: none;
     padding-bottom: 2rem;
     padding-left: 0;
 }
 a.footer {
-    text-decoration: none;
     padding: 1.75rem;
+    text-decoration: none;
 }
 p.footer {
     color: white;
@@ -141,15 +134,16 @@ p.footer {
     text-align: center;
 }
 #footer-about-me {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 .about-me {
+    align-items: center;
+    background-color: #E2DCDE;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* margin-top: 10%; */
-    background-color: #E2DCDE;
+    margin-top: 0;
+    padding-bottom: 5rem;
     padding-top: 5rem;
 }
 #opening {
@@ -158,72 +152,37 @@ p.footer {
     padding-right: 15px;
 }
 section.about-me h2 {
-    font-family: "Red Hat Mono", monospace;
     background-color: #2D2D34;
-    color: white; 
-    width: fit-content;
+    color: white;
+    font-family: "Red Hat Mono", monospace;
     font-size: 3.5rem;
-    margin-top: 0;
     margin-bottom: 0;
+    margin-top: 0;
     padding-left: 10px;
     padding-right: 10px;
+    width: fit-content;
 }
 section.about-me p {
-    font-family: "Red Hat Mono", monospace;
+    font-family: "Crimson Pro", serif;
     font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0;
     width: 40%;
-    padding-bottom: 1.5rem;
 }
-
-/* a[href="about-me.html"] {
-    background-color: #b08f85;
-    color: gainsboro;
-    padding: 0.5rem;
+a.back-to-home {
+    border: 3px solid #B97375;
+    border-radius: 300px;
+    color: #B97375;
+    font-family: "Crimson Pro", serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 5rem;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
 }
-
-a[href="about-me.html"]:hover {
-    background-color: #a76985;
-} */
-/* 
-.important {
-    color: hsl(0, 0%, 34%);
+a.back-to-home:hover {
+    background-color: #B97375;
+    color: white;
 }
-
-a[href="https://github.com/jes-che/semantic-elements"] {
-    color: rgb(59, 59, 59);
-}
-
-a[href="https://github.com/jes-che/semantic-elements"]:hover {
-    background-color: #807b71;
-}
-
-a[href="#"] {
-    color: rgb(59, 59, 59);  
-}
-
-a[href="#"]:hover {
-    background-color: #807b71;
-}
-
-/* h3 {
-    font-style: italic;
-} */
-/* 
-a[href="index.html"] {
-    background-color: #b08f85;
-    color: gainsboro;
-    padding: 0.5rem;    
-}
-
-a[href="index.html"]:hover {
-    background-color: #a76985;
-}
-
-h1.about-me-title {
-    font-size: 75px;
-}
-
-#footer {
-    font-family: "Courier New";
-    font-weight: bold;
-} */ 
