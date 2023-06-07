@@ -11,7 +11,7 @@ h1.home-title {
     width: 25%;
 }
 #intro-image {
-    left: 10%;
+    padding-left: 10%;
     position: relative;
     z-index: -1;
 }
@@ -19,7 +19,7 @@ h1.home-title {
     align-items: center;
     display: flex;
     flex-direction: column;
-    left: 10%;
+    padding-left: 20%;
     position: relative;
     top: -500px;
     width: fit-content;
@@ -162,7 +162,7 @@ p.footer {
 }
 #footer-about-me {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .about-me {
     align-items: center;
