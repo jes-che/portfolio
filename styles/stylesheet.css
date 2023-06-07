@@ -58,7 +58,6 @@ nav.intro-link ul {
     font-size: 1.2rem;
     list-style: none;
     padding-top: 1rem;
-    /* margin-left: 0; */
 }
 a.intro-link {
     padding-right: 1.5rem;
@@ -69,31 +68,16 @@ a.intro-link:hover {
     opacity: 0.5;
 }
 div.intro-link {
+    color: #B97375;
+    display: inline-block;
     font-family: "Red Hat Mono", monospace;
     font-size: 1rem;
     font-weight: 700;
-    color: #B97375;
-    display: inline-block;
     padding-left: 0.25rem;
     padding-right: 0.5rem;
-    /* transition: opacity .1s ease-in-out; */
 }
-/* div.intro-link:hover {
-    opacity: 0.5;
-} */
-/* .fa-lg {
-    transition: opacity .1s ease-in-out;
-}
-.fa-lg:hover {
-    opacity: 0.5;
-} */
-/* .fa-xl {
-    transition: opacity .1s ease-in-out;
-}
-.fa-xl:hover {
-    opacity: 0.5;
-} */
 p {
+
     color: rgb(59, 59, 59)
 }
 #section-border {
@@ -123,6 +107,12 @@ p.project {
     padding-left: 5em;
     padding-right: 5rem;
 }
+article {
+    border-right: 0.5px dotted #CEB1BE;
+}
+article:nth-child(3) {
+    border-right: none;
+}
 a.project {
     border: 2px solid #ffd100;
     border-radius: 300px;
@@ -133,8 +123,8 @@ a.project {
     margin-top: 1.5rem;
     padding: 10px;
     text-decoration: none;
+    transition: background-color .1s;
     width: 100px;
-    transition: background-color .5s;
 }
 a.project:hover {
     background-color: #ffd100;
