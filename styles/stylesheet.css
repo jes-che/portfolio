@@ -208,18 +208,27 @@ section.contact-me h3 {
     color: #3b3b3b;
     font-family: "Crimson Pro", serif;
 }
+section.contact-me div {
+    padding-bottom: 25px;
+}
+#contact-image {
+    position: absolute;
+    top: 600px;
+    left: -25px;
+}
 form {
     font-family: "Red Hat Mono", monospace;
     padding: 50px 100px;
     border: 5px solid white;
 }
 div label{
-    /* display: inline-block; */
     float: left;
     clear: left;
-    width: 100px;
+    width: 75px;
     text-align: right;
     padding-right: 30px;
+    padding-top: 6px;
+    font-weight: bold;
 }
 /* div input {
   float: left;
@@ -231,6 +240,7 @@ div label{
 fieldset {
     padding-left: 30px;
     padding-right: 30px;
+    font-weight: bold;
 }
 fieldset legend {
     text-align: center;
@@ -240,9 +250,11 @@ fieldset label {
 }
 .button {
     margin-left: 40%;
+    padding-top: 20px;
 }
 input[type="submit"] {
     font-family: "Red Hat Mono", monospace;
+    font-weight: bold;
 }
 /* Footer here */
 footer {
