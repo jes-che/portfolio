@@ -33,21 +33,32 @@
                 <label for="phone">Phone</label>
                 <input type="tel" id="phone" name="phone" placeholder="Your phone number">
             </div>
+            <fieldset class="comment-type">
+                <legend>What Kind of Comment Would You Like to Send?</legend>
+                <input type="radio" id="question" name="commentType" value="question">
+                <label for="question">Question</label><br>
+                <input type="radio" id="suggestion" name="commentType" value="suggestion">
+                <label for="suggestion">Suggestion</label><br>
+                <input type="radio" id="praise" name="commentType" value="praise">
+                <label for="praise">Praise</label>
+            </fieldset>
             <div>
                 <label for="message">Messages</label>
                 <textarea name="message" id="message" rows="5" cols="28" placeholder="Enter your message here"></textarea>
             </div>
-            <fieldset>
+            <fieldset class="contact-method">
                 <legend>Your Preferred Method of Contact</legend>
                 <input type="checkbox" id="by-email" name="method" value="email">
                 <label for="by-email">Email</label>
                 <input type="checkbox" id="by-phone" name="method" value="phone">
                 <label for="by-phone">Phone</label>
             </fieldset>
+
             <div class="button">
                 <input type="submit" value="Submit">
             </div>
         </form>
+        <a href="index.html" class="back-to-home">Back to Home</a>
     </section>
     
     <footer>
