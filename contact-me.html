@@ -20,34 +20,32 @@
         <form method="get">
             <div>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" required>
             </div>
             <div>
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
             </div>
             <div>
                 <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone">
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
             </div>
             <div>
             <div>
                 <label for="message">Messages</label>
-                <textarea name="message" id="message" placeholder="Enter your message here"></textarea>
+                <textarea name="message" id="message" rows="5" cols="28" placeholder="Enter your message here"></textarea>
             </div>
             </div>
             <fieldset>
                 <legend>Your Preferred Method of Contact</legend>
-                <!-- <div> -->
-                    <input type="checkbox" id="by-email" name="method" value="email">
-                    <label for="by-email">Email</label>
-                <!-- </div> -->
-                <!-- <div> -->
-                    <input type="checkbox" id="by-phone" name="method" value="phone">
-                    <label for="by-phone">Phone</label>
-                <!-- </div> -->
+                <input type="checkbox" id="by-email" name="method" value="email">
+                <label for="by-email">Email</label>
+                <input type="checkbox" id="by-phone" name="method" value="phone">
+                <label for="by-phone">Phone</label>
             </fieldset>
-            <input type="submit" value="Submit">
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
         </form>
     </section>
     
