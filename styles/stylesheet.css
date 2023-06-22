@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+/* Home page here */
 h1.home-title {
     color: #2D2D34;
     display: flex;
@@ -47,7 +48,7 @@ section.intro p {
     width: 25%;
 }
 #intro-about-me {
-    color: rgb(59, 59, 59);
+    color: #3b3b3b;
     font-weight: bold;
     text-decoration-color: #B97375;
     text-decoration-line: underline;
@@ -77,7 +78,7 @@ div.intro-link {
     padding-right: 0.5rem;
 }
 p {
-    color: rgb(59, 59, 59)
+    color: #3b3b3b;
 }
 #section-border {
     background-color: #2D2D34;
@@ -132,38 +133,7 @@ a.project:hover {
 section.project article {
     padding-bottom: 2rem;
 }
-footer {
-    background-color: #2D2D34;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-}
-footer ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding-bottom: 2rem;
-    padding-left: 0;
-}
-a.footer {
-    font-size: 1.5rem;
-    padding: 1.75rem;
-    text-decoration: none;
-}
-a.footer .fa-xl {
-    transition: font-size .3s ease-in-out;
-}
-a.footer .fa-xl:hover {
-    font-size: 200%;
-}
-p.footer {
-    color: white;
-    font-family: "Red Hat Mono", monospace;
-    text-align: center;
-}
-#footer-about-me {
-    color: white;
-    text-decoration: underline;
-}
+/* About Me page here */
 .about-me {
     align-items: center;
     background-color: #E2DCDE;
@@ -212,4 +182,74 @@ a.back-to-home {
 a.back-to-home:hover {
     background-color: #B97375;
     color: white;
+}
+/* Contact Me page here */
+.contact-me {
+    align-items: center;
+    background-color: #E2DCDE;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+section.contact-me h2 {
+    background-color: #2D2D34;
+    color: white;
+    font-family: "Red Hat Mono", monospace;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
+}
+section.contact-me h3 {
+    color: #3b3b3b;
+    font-family: "Crimson Pro", serif;
+}
+form {
+    font-family: "Red Hat Mono", monospace;
+    padding: 50px 100px;
+    border: 5px solid white;
+}
+#name {
+    width: 15rem;
+    height: 2rem;
+}
+input[type="submit"] {
+    font-family: "Red Hat Mono", monospace;
+}
+/* Footer here */
+footer {
+    background-color: #2D2D34;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 2rem;
+    padding-left: 0;
+}
+a.footer {
+    font-size: 1.5rem;
+    padding: 1.75rem;
+    text-decoration: none;
+}
+a.footer .fa-xl {
+    transition: font-size .3s ease-in-out;
+}
+a.footer .fa-xl:hover {
+    font-size: 200%;
+}
+p.footer {
+    color: white;
+    font-family: "Red Hat Mono", monospace;
+    text-align: center;
+}
+#footer-about-me {
+    color: white;
+    text-decoration: underline;
 }
