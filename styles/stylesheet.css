@@ -107,12 +107,6 @@ p.project {
     padding-left: 5em;
     padding-right: 5rem;
 }
-article {
-    border-right: 0.5px dotted #CEB1BE;
-}
-article:nth-child(3) {
-    border-right: none;
-}
 a.project {
     border: 2px solid #ffd100;
     border-radius: 300px;
